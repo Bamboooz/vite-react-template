@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "pretty": "pnpm exec prettier . --write",
-        "dev": "pnpm run pretty && pnpm exec vite",
+        "start": "pnpm run pretty && pnpm exec vite",
         "build": "pnpm exec tsc -b && pnpm exec vite build",
         "preview": "pnpm exec vite preview"
     },
